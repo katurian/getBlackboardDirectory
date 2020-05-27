@@ -3,11 +3,18 @@ import base64
 import json
 import requests
 import urllib3
+import time
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
 print('\n')
-print('BLACKBOARD COURSE DOWNLOADER:')
+time.sleep(1)
+print('BLACKBOARD COURSE DOWNLOADER: https://github.com/katurian/getBlackboardDirectory')
+time.sleep(2)
+print('Buy me a coffee: https://ko-fi.com/katski')
+time.sleep(2)
+print('Hire me: https://katski.org/')
+print('-----------------------------------------------')
 print('\n')
 school_url = input("Enter your school's Blackboard site in this format: blackboard.MYSCHOOL.edu \n")
 school_url = f'https://{school_url}'
@@ -74,33 +81,5 @@ for item in root_JSON['results']:
         layer_JSON = r.json()
         iterateDirectory(layer_JSON, layer_path)
 
-
 print('\n')
-print('Done!')
-
-
-
-    
-
-
-        
-                    
-        
-    
-
-        
-        
-        
-
- 
-    
-
-
-
-
-
-
-
-
-                                                                                                                                                                          
-
+print('Done!')                                                                                                                                                   
