@@ -37,7 +37,6 @@ def downloadFile(input_id, input_path):
                 file.write(r.content)
             print(f'{title}.{extension}')
 
-    
 def iterateDirectory(input_json, input_path):
     root_path = input_path
     for item in input_json['results']:
