@@ -10,11 +10,11 @@ A command line tool for downloading Blackboard course directories.
 ### 2. Go to ``blackboard.SCHOOL-NAME.edu/learn/api/public/v1/courses``
 
 Replace ``SCHOOL-NAME`` with your college or university's domain name:
-![enter image description here](https://media.discordapp.net/attachments/681862516279738391/716123511491395615/unknown.png)
+![enter image description here](https://media.discordapp.net/attachments/681862516279738391/716123511491395615/unknown.pngwidth=700&height=600)
 This will take you to a page that looks like this:
 ![enter image description here](https://media.discordapp.net/attachments/681862516279738391/716125495472816209/unknown.png?width=1276&height=1003)
+
 ### 3. Click ``Ctrl + Shift + I`` on your keyboard or left click and select ``Inspect``
-![enter image description here](https://www.wikihow.com/images/0/0a/Inspect-Element-on-Chrome-Step-7.jpg)
 This will open Chrome DevTools:
 ![enter image description here](https://media.discordapp.net/attachments/681862516279738391/716126196181499966/unknown.png?width=1414&height=1002)
 
@@ -30,3 +30,15 @@ Copy the string of letters/numbers highlighted in light blue down below, but fro
 ![enter image description here](https://media.discordapp.net/attachments/681862516279738391/716128630391963648/unknown.png)
 
 ### 7. Save ``s_session_id`` in a secure location. You will need it to run the program.
+
+## How to find your course ID and content ID:
+
+### 1. Navigate to your course's ``Assignments`` folder, or wherever you want to download content from. 
+
+### 2. Look at the URL. For example, mine is:
+``https://blackboard.cpcc.edu/webapps/blackboard/content/listContent.jsp?**course_id=_946598_1&content_id=_11250540_1**&mode=reset``
+
+
+
+
+
