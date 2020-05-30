@@ -5,7 +5,7 @@ A command line tool for downloading Blackboard course directories.
 
 ### 1. Open Google Chrome and log into Blackboard with your credentials.
 
-![Login](https://media.discordapp.net/attachments/681862516279738391/716121719265296404/unknown.png?width=2052&height=980)
+![Login](https://media.discordapp.net/attachments/681862516279738391/716121719265296404/unknown.png?width=1000&height=500)
 
 ### 2. Go to ``blackboard.SCHOOL-NAME.edu/learn/api/public/v1/courses``
 
