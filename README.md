@@ -36,7 +36,13 @@ Copy the string of letters/numbers highlighted in light blue down below, but fro
 ### 1. Navigate to your course's ``Assignments`` folder, or wherever you want to download content from. 
 
 ### 2. Look at the URL. For example, mine is:
-``https://blackboard.cpcc.edu/webapps/blackboard/content/listContent.jsp?**course_id=_946598_1&content_id=_11250540_1**&mode=reset``
+``https://blackboard.cpcc.edu/webapps/blackboard/content/listContent.jsp?course_id=_946598_1&content_id=_11250540_1&mode=reset``
+
+### 3. Copy ``course_id`` and ``content_id``:
+``course_id=_946598_1&content_id=_11250540_1``
+``_946598_1`` ``_11250540_1``
+
+### 4. Save these numbers in a secure location.
 
 
 
