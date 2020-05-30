@@ -9,14 +9,14 @@ A command line tool for downloading Blackboard course directories.
 
 ### 2. Go to ``blackboard.SCHOOL-NAME.edu/learn/api/public/v1/courses``
 
-Replace ``SCHOOL-NAME`` with your college or university's domain name: This will take you to a page that looks like this:
+Replace ``SCHOOL-NAME`` with your college or university's domain name. The link will take you to a page that looks like this:
 ![enter image description here](https://media.discordapp.net/attachments/681862516279738391/716125495472816209/unknown.png?width=900&height=700)
 
 ### 3. Click ``Ctrl + Shift + I`` on your keyboard or left click and select ``Inspect``
 This will open Chrome DevTools:
 ![enter image description here](https://media.discordapp.net/attachments/681862516279738391/716126196181499966/unknown.png?width=1414&height=1002)
 
-### 4. Select ``Network`` from the Chrome DevTools menu
+### 4. Select ``Network`` from the Chrome DevTools menu.
 ![enter image description here](https://media.discordapp.net/attachments/681862516279738391/716126841169248276/unknown.png)
 
 ### 5. Hit ``Ctrl + R`` on your keyboard.
