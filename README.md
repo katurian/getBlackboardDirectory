@@ -27,7 +27,7 @@ The following list will pop up:
 Copy the string of letters/numbers highlighted in light blue down below, but from your own page.
 ![enter image description here](https://media.discordapp.net/attachments/681862516279738391/716128630391963648/unknown.png)
 
-### 7. Save ``s_session_id`` in a secure location. You will need it to run the program.
+### 7. Save ``s_session_id`` to a secure location. You will need it to run the program.
 
 ## How to find your course ID and content ID:
 
@@ -40,7 +40,7 @@ Copy the string of letters/numbers highlighted in light blue down below, but fro
 ``course_id=_946598_1&content_id=_11250540_1``
 ``_946598_1`` ``_11250540_1``
 
-### 4. Save these numbers in a secure location.
+### 4. Save these numbers to a secure location. You will need them to run the program.
 
 
 
