@@ -16,10 +16,9 @@ def downloadLink(input_id, input_path):
         for item in attachments_json['results']:
             attachment_id = item['id']
             title = item['fileName']
-        r = requests.get(f'{school_url}/learn/api/public/v1/courses/{course_id}/contents/{input_id}/attachments/{attachment_id}/download', headers=headers, allow_redirects=True, verify=False)
-        with open(f'{input_path}{title}', 'wb') as file:
-            file.write(r.content)
-        print(title)
+            r = requests.get(f'{school_url}/learn/api/public/v1/courses/{course_id}/contents/{input_id}/attachments/{attachment_id}/download', headers=headers, allow_redirects=True, verify=False)
+            with open(f'{input_path}{title}', 'wb') as file:
+                file.write(r.content)
             
 def downloadFile(input_id, input_path):
     r = requests.get(f'{school_url}/learn/api/public/v1/courses/{course_id}/contents/{input_id}/attachments', headers=headers, verify=False)
@@ -35,7 +34,6 @@ def downloadFile(input_id, input_path):
             extension = url[-4:]
             with open(f'{input_path}{title}.{extension}', 'wb') as file:
                 file.write(r.content)
-            print(f'{title}.{extension}')
 
 def iterateDirectory(input_json, input_path):
     root_path = input_path
@@ -51,6 +49,9 @@ def iterateDirectory(input_json, input_path):
             with open(f'{root_path}{title}.txt', 'wb') as file:
                 file.write(url.encode())
         if item['contentHandler']['id'] == 'resource/x-bb-file':
+            layer_id = item['id']
+            downloadLink(layer_id, root_path)
+        if item['contentHandler']['id'] == 'resource/x-bb-assignment':
             layer_id = item['id']
             downloadLink(layer_id, root_path)
         if item['contentHandler']['id'] == 'resource/x-bb-courselink':
